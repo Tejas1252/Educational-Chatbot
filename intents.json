@@ -1,0 +1,40 @@
+{
+"intents": [
+{"tag": "greeting", "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"], "responses": ["Hey :-)", "Hello, thanks for visiting", "Hi there, what can I do for you?", "Hi there, how can I help?"]},
+
+{"tag": "goodbye", "patterns": ["Bye", "See you later", "Goodbye"], "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]},
+
+{"tag": "thanks", "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"], "responses": ["Happy to help!", "Any time!", "My pleasure"]},
+
+{"tag": "items", "patterns": ["Which items do you have?", "What kinds of items are there?", "What do you sell?"], "responses": ["We sell coffee and tea", "We have coffee and tea"]},
+
+{"tag": "payments", "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Can I pay with Paypal?", "Are you cash only?"], "responses": ["We accept VISA, Mastercard and Paypal", "We accept most major credit cards, and Paypal"]},
+
+{"tag": "delivery", "patterns": ["How long does delivery take?", "How long does shipping take?", "When do I get my delivery?"], "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]},
+
+{"tag": "funny", "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"], "responses": ["Why did the hipster burn his mouth? He drank the coffee before it was cool.", "What did the buffalo say when his son left for college? Bison."]},
+
+{"tag": "break", "patterns": ["ok", "okay", "fine", "great", "yep", "yeah"], "responses": ["It's my pleasure.</br> Anything else you are looking for?", "No issues.</br> You can bother me 24 x 7."]},
+
+{"tag": "admission", "patterns": ["admission?", "Tell me admission process", "What do you know about admission?", "I want to know about admission process"], "responses": ["There are 2 ways by which you can take admission in our institute:</br>1. Online (CAP rounds)</br>2. Offline</br> To know about required documents type 'Documents'"]},
+
+{"tag": "course", "patterns": ["course?", "how many courses are there?", "Tell me about the courses avaliable in your college"], "responses": ["There are total 5 courses are there in our college.The courses are Information Technology,Computer Science,Mechanical,Telecommunication and Electronics & communication"]},
+
+{"tag": "Eligibility Criteria", "patterns": ["Eligibility Criteria?", "what are the eligibility criteria in your college", "Tell me about the eligibility criteria for student?", "eligibility criteria for first year student."], "responses": ["(i) Candidates passing SSC and also HSC or Diploma in Engineering or Bachelor of Science Examination from a recognised institution in Maharashtra State.</br>(ii) Candidate who is either Domicile of Maharashtra and/or is born in Maharashtra"]},
+
+{"tag": "placement", "patterns": ["placement?", "how many company are there for placement in your college", " which companies are going to come for placement", "what is the placement criteria", "what is the average salary in placement."], "responses": ["There are many company for placement i.e CapGemini ,Deloitte,Tech Mahindra, L&T etc. The average salary start from 3-3.5 lakh . The criteria is above 60%. "]},
+
+{"tag": "intake", "patterns": ["intake?", "how many student intake are in each branches?", "what is the total intake of student in your college", "Total intake in your department.", " what are the different category intake of student in your college."], "responses": ["Total intake of student is 300. There are 60 intake in Computer Engineering, 60 intake in Information Technology,60 intake in Electronics & Telecommunication Engineering,120 intake in Mechanical Engineering of student in each branches.For cap seats 29% seats are filled through CAP conducted by DTE.</br>Minority Seats 51% seats are reserve for Minority candidates (Roman Catholic Community),Institute Level Seats 20% seats are allotted as Institute Quota,"]},
+
+{"tag": "Capround", "patterns": ["Capround?", "what are the document needed in Capround.", "what are the seats percentage filled through Capround."], "responses": ["Dodument needed are Cap allotment letter,SSC Mark Sheet,HSC Mark Sheet,College Leaving / Transference Certificate (12th std), MHCET 2018 Score Card,etc.29% seats are filled through Capround conducted by DTE."]},
+
+{"tag": "document", "patterns": ["document?", "what are the document needed in admission process.", "what are the required document?", "How many document are required?"], "responses": ["1)Application form from college office (Rs.1000/-).</br>2)Cap allotment letter.</br>3)SSC Mark Sheet.</br>4)HSC Mark Sheet.</br>5)College Leaving / Transference Certificate (12th std).</br>6)MHCET 2018 Score Card.</br>7)Certificate of Indian Nationality OR Indian Passport in the name of Candidate OR College Leaving Certificate indicating the Nationality as 'Indian'.</br>8) Maharashtra State Domicile Certificate OR Birth Certificate indicating Birth Place in Maharashtra OR College Leaving Certificate indicating Birth Place in Maharashtra.</br>9) Copy of Aadhaar Card.10)Caste Certificate, Caste Validity Certificate and Non-Creamy Layer Certificate."]},
+
+{"tag": "Scholarships", "patterns": ["Scholarships?", "Are there any Scholarhips in your college.", "For Scholarships candidate should be admitted through Cap or not?", "What are the criteria for scholarships."], "responses": ["Rajashri Chhatrapati Shahu Maharaj fees Reimbursement scheme</br>Criteria for the scholarship is as follows:</br>1) The scholarship will be given to Economically Backward Class whose annual family income should not exceed 600000/-,</br>2), Candidate should be admitted from the CAP round,</br>3), The Qualifying exam percentage should be more than 60%(XII and Diploma)."]},
+
+{"tag": "seat chances", "patterns": ["seat chances?", "Probability of getting a seat?", "will i get selected?what are the chances?", "Tell me probability of gettign a seat."], "responses": ["If you are able to fulfill all the eligible criteria then 90% and above are chances that you will get selected.</br>If you are going for offline admission process then there are 50-50% chances that you will get a seat."]},
+
+{"tag": "hostel", "patterns": ["hostel facilities?", "Hostel facilities are available?", "What about hostel?", "Tell me about hostels."], "responses": ["No hostel facilities are available in our college.</br>If you want you can look for rooms on rent nearby the college."]},
+
+{"tag": "", "patterns": [""], "responses": [""]}
+]}

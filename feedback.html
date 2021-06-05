@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Feedback Form | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Feedback</div>
+    <div class="content">
+      <form method="post" autocomplete="off" name="google-sheet">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="Enter your First name" name="First name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Last name</span>
+            <input type="text" placeholder="Enter your last name" name="Last name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">E-mail</span>
+            <input type="text" placeholder="Enter your email" name="Email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Contact Number</span>
+            <input type="text" placeholder="Enter your number" name="Contact" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Are you student/parent?</span>
+            <input type="text" placeholder="e.g. Student" name="Student/Parent" required>
+          </div>
+          <div class="input-box2">
+              <span class="details">Enter your feedback</span>
+              <textarea type="text" placeholder="Enter your feedback" name="Feedback" required></textarea>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwOh3z7dzinHyShM3XZuw5raGb3j--6ZhStoNVETHngE0lTj6KY/exec'
+            const form = document.forms['google-sheet']
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thank you for filling feedback form!!"))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
